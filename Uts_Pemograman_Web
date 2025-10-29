@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website Saya</title>
+</head>
+<body>
+
+<table border="0" width="100%">
+    <tr>
+        <td colspan="3" align="center">
+            <h1>WEBSITE SAYA</h1>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3" align="center">
+            Selamat Datang, (nama anda)
+        </td>
+    </tr>
+    <tr>
+        <td width="20%" valign="top">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ISI BUKU TAMU</a></li>
+            </ul>
+        </td>
+        <td width="55%" valign="top">
+            <h2>Formulir Biodata Diri</h2>
+            <form>
+                <table border="0" width="100%">
+                    <tr>
+                        <td width="40%">Nama Lengkap:</td>
+                        <td><input type="text" name="nama_lengkap" value="Masukkan nama lengkap An" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Tempat, Tanggal Lahir:</td>
+                        <td><input type="text" name="ttl" value="Contoh: Jakarta, 20 Mei 200" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin:</td>
+                        <td>
+                            <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+                            <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Alamat:</td>
+                        <td><textarea name="alamat" rows="4" cols="25">Masukkan alamat lengkap Anda</textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Agama:</td>
+                        <td>
+                            <select name="agama">
+                                <option>-- Pilih Agama --</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" name="email" value="emailanda@example.com" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Nomor Telepon:</td>
+                        <td><input type="tel" name="telp" value="0812-3456-7890" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Hobi:</td>
+                        <td>
+                            <input type="checkbox" name="hobi[]" value="Membaca"> Membaca<br>
+                            <input type="checkbox" name="hobi[]" value="Olahraga"> Olahraga<br>
+                            <input type="checkbox" name="hobi[]" value="Traveling"> Traveling
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Cita-cita:</td>
+                        <td><input type="text" name="cita_cita" value="Masukkan cita-cita Anda" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Upload Foto:</td>
+                        <td>
+                            <input type="file" name="foto">
+                            <input type="button" value="Upload Sekarang">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Kirim Biodata">
+                            <input type="reset" value="Batal">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </td>
+        <td width="25%" valign="top">
+            Nama&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: (NAMA ANDA)<br>
+            NIM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: (NIM ANDA)<br>
+            Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: (EMAIL ANDA)<br>
+            No HP&nbsp;&nbsp;&nbsp;&nbsp;: (NO HANDPHONE ANDA)
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3" align="center">
+            "Copyright @nama anda"
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
